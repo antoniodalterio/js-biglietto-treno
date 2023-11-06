@@ -11,6 +11,6 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 2. in base ai kilometri calcolare il prezzoBiglietto (numeroKilometri \* 0,21€)
 3. applicare uno sconto in base all'età del passeggero
 
-- SE (passeggeroEta > 18) si applica lo sconto del 20% sul prezzoBiglietto
-  - ALTRIMENTI SE (passeggeroEta < 65) si applica lo sconto del 40% sul prezzoBiglietto
+- SE (passeggeroEta < 18) si applica lo sconto del 20% sul prezzoBiglietto
+  - ALTRIMENTI SE (passeggeroEta > 65) si applica lo sconto del 40% sul prezzoBiglietto
     sul prezzoBiglietto sul prezzoBiglietto
